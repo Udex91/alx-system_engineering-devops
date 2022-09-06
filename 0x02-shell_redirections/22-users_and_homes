@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -d ':' -f z 6 /etc/passwd/srt
+cut -d: -f 1,6 /etc/passwd | sort
